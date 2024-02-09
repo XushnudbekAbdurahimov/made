@@ -1,0 +1,153 @@
+.all_con {
+     width: 100%;
+     /* height: 60vh; */
+     background-color: white;
+     padding-top: 80px;
+}
+
+.busines {
+     width: 76.4%;
+     height: 80vh;
+     background: white;
+     display: flex;
+     margin: auto;
+     margin-top: 35.5px;
+}
+
+.right_grid {
+     width: 554px;
+     height: 500px;
+     background: #88B0C9;
+}
+
+.left_grid {
+     margin-left: 25px;
+}
+
+.first_grid {
+     width: 580px;
+     height: 240px;
+     background: #9BB6D1;
+     padding-top: 20px;
+}
+
+.second_grid {
+     width: 272px;
+     height: 229px;
+     background: #C38F8F;
+     padding-top: 15px;
+
+}
+
+.third_grid {
+     width: 278px;
+     height: 229px;
+     background-color: #477087;
+     padding-top: 15px;
+
+
+}
+
+.double {
+     display: flex;
+     margin-top: 30px;
+     gap: 30px;
+}
+
+.right_grid h2 {
+     font-size: 24px;
+     font-family: 'Cuprum', Arial, sans-serif;
+     font-weight: 500;
+     color: white;
+     margin-top: 20px;
+     margin-left: 30px;
+     line-height: 1.55;
+}
+
+.first_grid h2 {
+     font-size: 24px;
+     font-family: 'Cuprum', Arial, sans-serif;
+     font-weight: 500;
+     color: white;
+     margin-left: 30px;
+     line-height: 1.55;
+}
+
+.second_grid h2 {
+     font-size: 24px;
+     font-family: 'Cuprum', Arial, sans-serif;
+     font-weight: 500;
+     color: white;
+     margin-left: 30px;
+     line-height: 1.55;
+     
+}
+.third_grid h2{
+     font-size: 24px;
+     font-family: 'Cuprum', Arial, sans-serif;
+     font-weight: 500;
+     color: white;
+     margin-left: 20px;
+     line-height: 1.55;
+}
+.second_grid button{
+     color: #ffffff;
+     font-size: 16px;
+     font-family: 'Cuprum', Arial, sans-serif;
+     line-height: 1.55;
+     font-weight: 500;
+     letter-spacing: .1px;
+     width: 200px;
+     height: 55px;
+     border-radius: 30px;
+     border: 1px solid white;
+     background-color: transparent;
+     margin-left: 30px;
+     margin-top: 80px;
+}
+.third_grid button{
+     color: #ffffff;
+     font-size: 16px;
+     font-family: 'Cuprum', Arial, sans-serif;
+     line-height: 1.55;
+     font-weight: 500;
+     letter-spacing: .1px;
+     width: 200px;
+     height: 55px;
+     border-radius: 30px;
+     border: 1px solid white;
+     background-color: transparent;
+     margin-left: 20px;
+     margin-top: 45px;
+}
+.right_grid button {
+     color: #ffffff;
+     font-size: 16px;
+     font-family: 'Cuprum', Arial, sans-serif;
+     line-height: 1.55;
+     font-weight: 500;
+     letter-spacing: .1px;
+     width: 200px;
+     height: 55px;
+     border-radius: 30px;
+     border: 1px solid white;
+     background-color: transparent;
+     margin-left: 30px;
+     margin-top: 310px;
+}
+
+.first_grid button {
+     color: #ffffff;
+     font-size: 16px;
+     font-family: 'Cuprum', Arial, sans-serif;
+     line-height: 1.55;
+     font-weight: 500;
+     letter-spacing: .1px;
+     width: 200px;
+     height: 55px;
+     border-radius: 30px;
+     border: 1px solid white;
+     background-color: transparent;
+     margin-left: 30px;
+     margin-top: 50px;
+}

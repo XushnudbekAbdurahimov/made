@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&family=Cuprum:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Lemon&family=Nabla&family=Rubik+Glitch&family=Rubik+Maps&display=swap');
+.div{
+     width: 100%;
+     background-color: white;
+}
+.top_nav {
+     width: 73%;
+     height: 60px;
+     display: flex;
+     justify-content: space-between;
+     margin: auto;
+     padding-right: 4px;
+}
+
+.logo_img img {
+     width: 222px;
+     height: 62.5px;
+     margin-left: -15px;
+     cursor: pointer;
+     /* border: 2px solid red; */
+}
+
+.top_nav input {
+     width: 460px;
+     height: 60px;
+     border: 1px solid #1a4d6c;
+     padding: 0 20px;
+     font-size: 16px;
+     font-family: 'Cuprum', Arial, sans-serif;
+     border-radius: 1px;
+     padding-left: 65px;
+     margin-left: -100px;
+}
+
+.top_nav input::placeholder {
+     font-size: 18px;
+     font-family: Cuprum, Arial, sans-serif;
+     font-weight: 400;
+     color: #1a4d6c;
+}
+
+.top_nav h1 {
+     color: #1A4D8D;
+     font-family: Cuprum, Arial, sans-serif;
+     font-size: 30px;
+     line-height: 46.5px;
+     font-weight: 600;
+     margin-top: 25px;
+     cursor: pointer;
+}
+
+.bottom_nav {
+     width: 74.2%;
+     margin: auto;
+     display: flex;
+     justify-content: space-between;
+     margin-top: 25px;
+
+}
+
+.bottom_nav ul a:hover {
+     color: #008bcb;
+
+
+}
+
+.bottom_nav ul a {
+     text-decoration: none;
+     font-family: Cuprum, Arial, sans-serif;
+     transition: 1s;
+     color: #1a4d6c;
+
+}
+
+.bottom_nav ul {
+     display: flex;
+     list-style: none;
+     gap: 48px;
+}
+.bottom_nav ul li:nth-child(3){
+     width: 118px;
+     margin-left: 20px;
+}
+.bottom_nav ul li:nth-child(4){
+     width: 75px;
+}
+.bottom_nav ul li:nth-child(5){
+     width: 235px;
+}
+
+.bottom_nav ul li {
+     font-size: 18px;
+     font-family: 'Cuprum', Arial, sans-serif;
+     font-weight: 400;
+     border-width: 1px;
+     color: #000000;
+}
+
+.zakaz h1{
+     color: #a30e21;
+     font-size: 18px;
+     font-family: 'Cuprum', Arial, sans-serif;
+     font-weight: 600;
+     cursor: pointer;
+     margin-right: 40px;
+}
