@@ -1,0 +1,41 @@
+.Maxsulotlar{
+     width: 100%;
+     height: 100vh;
+     margin-top: 50px;
+}
+.maxsulotlar2 ul{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     list-style: none;
+     width: 90%;
+     margin: auto;
+
+}
+.Maxsulotlar h1{
+     font-size: 56px;
+     text-align: center;
+     font-family: sans-serif;
+     font-weight: 400;
+     color: rgb(45, 45, 151);
+}
+.Maxsulotlar p{
+     width: 90%;
+     margin: auto;
+     margin-top: 20px;
+     margin-bottom: 15px;
+}
+.search{
+     border: 2px solid red;
+     display: flex;
+     width: 95%;
+     margin: auto;
+}
+.search img{
+     width: 50px;
+}
+.jkl{
+     width: 100%;
+} 
+.search input{
+     width: 75%;
+}

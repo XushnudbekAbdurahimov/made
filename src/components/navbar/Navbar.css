@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&family=Cuprum:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Lemon&family=Nabla&family=Rubik+Glitch&family=Rubik+Maps&display=swap');
-.div{
+
+.div {
      width: 100%;
-     background-color: white;
+     background-color: transparent;
+     padding-top: 20px;
 }
+
 .top_nav {
      width: 73%;
      height: 60px;
@@ -11,6 +14,35 @@
      margin: auto;
      padding-right: 4px;
 }
+
+
+.hov {
+     display: block;
+     width: 300px;
+     height: 85px;
+     margin-left: -100px;
+     margin-top: 3px;
+     box-shadow: 0 0 5px gray;
+     padding-top: 10px;
+     padding-left: 15px;
+     list-style: none;
+     position: fixed;
+
+}
+.hov_li:hover {
+     color: #a30e21;
+}
+.hov_li {
+     margin-top: 10px;
+     color: #008bcb;
+     font-weight: 300;
+     font-family: 'Cuprum';
+     transition: .5s;
+     cursor: pointer;
+}
+
+
+
 
 .logo_img img {
      width: 222px;
@@ -21,15 +53,36 @@
 }
 
 .top_nav input {
-     width: 460px;
+     width: 100%;
      height: 60px;
      border: 1px solid #1a4d6c;
      padding: 0 20px;
      font-size: 16px;
      font-family: 'Cuprum', Arial, sans-serif;
      border-radius: 1px;
-     padding-left: 65px;
+     border: none;
+     background: transparent;
+     outline: none;
+     /* padding-left: 65px; */
+     /* margin-left: -100px; */
+}
+
+.input_bar {
+     width: 460px;
+     height: 60px;
      margin-left: -100px;
+     display: flex;
+     align-items: center;
+     border: 1px solid #1a4d6c;
+     background-color: white;
+
+     /* justify-content: center; */
+}
+
+.img_img_img {
+     width: auto;
+     height: 50%;
+     margin-left: 20px;
 }
 
 .top_nav input::placeholder {
@@ -39,7 +92,7 @@
      color: #1a4d6c;
 }
 
-.top_nav h1 {
+.nav_h1_h1 {
      color: #1A4D8D;
      font-family: Cuprum, Arial, sans-serif;
      font-size: 30px;
@@ -77,14 +130,17 @@
      list-style: none;
      gap: 48px;
 }
-.bottom_nav ul li:nth-child(3){
+
+.bottom_nav ul li:nth-child(3) {
      width: 118px;
      margin-left: 20px;
 }
-.bottom_nav ul li:nth-child(4){
+
+.bottom_nav ul li:nth-child(4) {
      width: 75px;
 }
-.bottom_nav ul li:nth-child(5){
+
+.bottom_nav ul li:nth-child(5) {
      width: 235px;
 }
 
@@ -96,7 +152,7 @@
      color: #000000;
 }
 
-.zakaz h1{
+.zakaz h1 {
      color: #a30e21;
      font-size: 18px;
      font-family: 'Cuprum', Arial, sans-serif;

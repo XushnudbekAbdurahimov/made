@@ -1,17 +1,104 @@
 .Home {
      width: 100%;
-     height: 82.7vh;
-     background-image: url('../images/back.png');
-     background-position: center;
-     margin-top: 16px;
+     height: auto;
+     margin-top: 56px;
      display: flex;
-     justify-content: space-between;
-     padding-right: 240px;
+     flex-direction: column;
+     /* justify-content: space-between;  */
 
 }
 
+.news {
+     margin: auto;
+     gap: 10px;
+     display: flex;
+     justify-content: space-around;
+}
 
-.right_home h1 {
+.news_card {
+     background-color: rgba(0, 0, 0, 0.429);
+     width: 500px;
+     height: 250px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+}
+
+.projects {
+     width: 85%;
+     margin: auto;
+     margin-top: 40px;
+}
+
+.projects ul {
+     display: flex;
+     list-style: none;
+     justify-content: center;
+     align-items: center;
+     gap: 20px;
+}
+
+.projects ul li {
+     width: 325px;
+}
+
+.projects ul li button {
+     width: 90%;
+     height: 55px;
+     border-radius: 30px;
+     border: none;
+     outline: none;
+     font-size: 22px;
+     text-align: center;
+}
+
+.son p {
+     font-size: 20px;
+     color: white;
+     font-family: sans-serif;
+}
+
+.son h1 {
+     font-size: 53px;
+     color: white;
+     font-family: sans-serif;
+}
+
+.son {
+     display: flex;
+     justify-content: center;
+     align-items: first baseline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .right_home h1 { 
      font-size: 70px;
      font-family: 'Cuprum', Arial, sans-serif;
      font-weight: 400;
@@ -67,7 +154,7 @@
 .left_gome ul li:nth-child(4) {
      margin-bottom: 30px;
 }
-
+*/
 /* .left_gome ul{
      list-style: none;
      color: #1a4d6c;
@@ -80,7 +167,7 @@
      /* align-items: center; 
      flex-direction: column;
 }*/
-.left_gome ul li {
+/* .left_gome ul li { 
      display: flex;
      align-items: center;
      color: #1a4d6c;
@@ -95,9 +182,9 @@
      color: #1a4d6c;
      font-family: 'Cuprum', Arial, sans-serif;
      font-weight: 100;
-}
+}*/
 
-*/ .left_gome ul li {
+/* .left_gome ul li {
      font-size: 24px;
      line-height: 35px;
      display: flex;
@@ -107,4 +194,4 @@
 .left_gome ul li img {
      width: 40px;
      height: 40px;
-}
+}*/

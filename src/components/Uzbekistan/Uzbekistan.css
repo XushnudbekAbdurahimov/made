@@ -1,6 +1,502 @@
-.Uzbekistan{
+.Uzbekistan {
      width: 100%;
      height: 100vh;
-     border: 2px solid red;
-     background-color: red;
+     background-color: white;
+
+}
+
+.uzb_container_h1 {
+     width: 76%;
+     margin: auto;
+     line-height: 95px;
+     color: #a30e21;
+     font-size: 70px;
+     font-family: 'Cuprum', Arial, sans-serif;
+     font-weight: 400;
+     margin-top: 100px;
+}
+
+.uzb_container_p {
+     width: 76%;
+     margin: auto;
+     color: #1a4d6c;
+     line-height: 23px;
+     font-size: 16px;
+     font-weight: 100;
+     font-family: 'Roboto', Arial, sans-serif;
+     display: flex;
+     gap: 20px;
+     margin-top: 13px;
+
+}
+
+.uzb_container_p u {
+     cursor: pointer;
+}
+
+.maps {
+     display: flex;
+     width: 76%;
+     margin: auto;
+     margin-top: 110px;
+}
+
+.maps .map1 {
+     width: 385px;
+     height: 57px;
+     font-size: 22px;
+     font-weight: 300;
+     padding-top: 14px;
+     padding-bottom: 14px;
+     font-family: 'Cuprum';
+     background: rgb(26, 77, 108);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: #fff;
+}
+
+.maps .map2 {
+     width: 385px;
+     height: 57px;
+     font-size: 22px;
+     font-weight: 300;
+     padding-top: 14px;
+     padding-bottom: 14px;
+     font-family: 'Cuprum';
+     color: rgb(26, 77, 108);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border: 1px solid rgb(26, 77, 108);
+}
+
+.maps .map3 {
+     width: 385px;
+     height: 57px;
+     font-size: 22px;
+     font-weight: 300;
+     padding-top: 14px;
+     padding-bottom: 14px;
+     font-family: 'Cuprum';
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: rgb(26, 77, 108);
+     border: 1px solid rgb(26, 77, 108);
+     border-left: none;
+}
+
+.inf {
+     width: 76%;
+     margin: auto;
+     display: flex;
+     justify-content: space-between;
+     margin-top: 65px;
+}
+
+.inf1 {
+     width: 290px;
+     height: 125px;
+     text-align: center;
+     border-right: 1px solid #d1d1d1;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+}
+
+.inf1:nth-child(4) {
+     border: none;
+}
+
+.inf1 h3 {
+     padding-bottom: 20px;
+     color: #a30e21;
+     font-size: 20px;
+     line-height: 1.3;
+     font-weight: 700;
+     font-family: 'Roboto';
+}
+
+.inf1 p {
+     font-size: 20px;
+     line-height: 1.55;
+     font-family: 'Cuprum', Arial, sans-serif;
+     font-weight: 300;
+     color: #000000;
+}
+
+/* .uzb_map_img {
+     width: 717px;
+     height: 405px;
+} */
+
+.uzb_map {
+     width: 717px;
+     height: 405px;
+     margin: auto;
+     margin-top: 75px;
+     background-image: url('../images/maps.jpg');
+     background-size: contain;
+
+}
+
+.uzb_map h1 {
+     color: #a30e21;
+     font-size: 50px;
+     font-family: 'Cuprum', Arial, sans-serif;
+     font-weight: 400;
+     text-align: center;
+}
+
+.gmt {
+     width: 76%;
+     margin: auto;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     margin-top: 60px;
+     gap: 40px;
+}
+
+.gmt h4 {
+     line-height: 26px;
+     font-size: 20px;
+     color: #1a4d6c;
+     font-family: 'Roboto', Arial, sans-serif;
+     font-weight: 700;
+     margin-bottom: 15px;
+}
+
+.gmt h5 {
+     color: #000000;
+     font-size: 20px;
+     font-family: 'Roboto', Arial, sans-serif;
+     line-height: 1.3;
+     font-weight: 300;
+     margin-bottom: 45px;
+
+}
+
+.under {
+     width: 240px;
+     height: 3px;
+     background: #1a4d6c;
+     margin-bottom: 15px;
+
+}
+
+.popular {
+     width: 100%;
+     height: 135vh;
+     background-color: #EFEFEF;
+     padding-top: 30px;
+}
+
+.cities {
+     width: 76%;
+     height: auto;
+     margin: auto;
+     background-color: white;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.city {
+     width: 290px;
+     height: 315px;
+     /* padding-top: 90px; */
+     /* padding-left: 25px; */
+
+}
+
+.city h4 {
+     font-size: 20px;
+     line-height: 1.3;
+     font-weight: 700;
+     font-family: 'Roboto';
+     color: #123870;
+     cursor: pointer;
+     margin-top: 90px;
+     margin-left: 25px;
+}
+
+.city h5 {
+     font-size: 20px;
+     font-weight: 300;
+     font-family: 'Roboto';
+     margin-top: 20px;
+     line-height: 1.55;
+     margin-left: 25px;
+
+}
+
+.images_city {
+     width: 100%;
+     height: 100%;
+}
+
+.climates {
+     width: 100%;
+     height: 210px;
+}
+
+.climate_h2 {
+     font-weight: 700;
+     font-size: 30px;
+     font-family: 'Roboto';
+     color: #123870;
+     text-align: center;
+     margin-top: 60px;
+}
+
+.climate_h3 {
+     font-weight: 300;
+     font-size: 20px;
+     font-family: 'Roboto';
+     text-align: center;
+     padding-top: 45px;
+
+}
+
+.climates {
+     display: flex;
+     justify-content: space-between;
+     width: 76%;
+     margin: auto;
+     margin-top: 70px;
+}
+
+.climate1 h3 {
+     color: #1a4d6c;
+     font-size: 20px;
+     line-height: 1.3;
+     font-weight: 700;
+     font-family: 'Roboto';
+     padding-top: 40px;
+     margin-bottom: 10px;
+}
+
+.climate1 h4 {
+     font-size: 20px;
+     line-height: 1.3;
+     font-weight: 300;
+     font-family: 'Roboto';
+}
+
+.climate1 {
+     width: 360px;
+}
+
+.obshiy {
+     width: 100%;
+     height: auto;
+     background-color: #EFEFEF;
+     padding-top: 60px;
+}
+
+.obshiy_h1 {
+     font-size: 50px;
+     color: #a30e21;
+     font-weight: 400;
+     font-family: 'Cuprum';
+     text-align: center;
+}
+
+.obshiy_cards {
+     width: 76%;
+     margin: auto;
+     display: flex;
+     justify-content: space-between;
+     margin-top: 40px;
+}
+
+.back_img {
+     width: 260px;
+     height: 170px;
+     background-color: #0000006d;
+     padding-top: 120px;
+     padding-left: 20px;
+     font-size: 18px;
+     line-height: 1.3;
+     font-weight: 700;
+     font-family: 'Roboto';
+     color: white;
+}
+
+
+.obshiy_card p {
+     font-size: 16px;
+     line-height: 1.3;
+     font-weight: 300;
+     font-family: 'Roboto';
+     margin-top: 30px;
+     margin-bottom: 10px;
+}
+
+.levels {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     width: 76%;
+     margin: auto;
+     margin-top: 23px;
+     gap: 40px;
+}
+
+.level {
+     width: 260px;
+}
+
+.level:nth-child(5),
+.level:nth-child(6),
+.level:nth-child(7),
+.level:nth-child(8) {
+     margin-top: 30px;
+}
+
+.level:nth-child(9),
+.level:nth-child(10),
+.level:nth-child(11),
+.level:nth-child(12) {
+     margin-top: 30px;
+}
+
+.ekonomika_h1 {
+     font-size: 50px;
+     color: #a30e21;
+     font-weight: 400;
+     font-family: 'Cuprum';
+     text-align: center;
+     line-height: 1.17;
+     margin-top: 35px;
+}
+
+.level h5 {
+     font-size: 20px;
+     line-height: 1.3;
+     font-weight: 700;
+     font-family: 'Roboto';
+     color: #123870;
+}
+
+.level h6 {
+     font-size: 20px;
+     line-height: 1.3;
+     font-weight: 300;
+     font-family: 'Roboto';
+     margin-top: 10px;
+
+}
+
+.percent {
+     width: 76%;
+     margin: auto;
+}
+
+.percent h1 {
+     font-weight: 700;
+     font-size: 30px;
+     font-family: 'Roboto';
+     text-align: center;
+     margin-top: 70px;
+     margin-bottom: 100px;
+}
+
+.text1s {
+     display: flex;
+     justify-content: space-between;
+}
+
+.text1 {
+     border-right: 1px solid #EFEFEF;
+     width: 275px;
+}
+
+.text1:nth-child(4) {
+     border: none;
+}
+
+.text1 h2 {
+     font-size: 20px;
+     line-height: 1.3;
+     font-weight: 700;
+     font-family: 'Roboto';
+     text-align: center;
+}
+
+.text1 h3 {
+     font-size: 20px;
+     line-height: 1.3;
+     font-weight: 300;
+     font-family: 'Roboto';
+     text-align: center;
+     margin-top: 15px;
+}
+
+.tourism {
+     width: 100%;
+     height: auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.tour_h1 {
+     font-size: 50px;
+     color: #a30e21;
+     font-weight: 400;
+     font-family: 'Cuprum';
+     text-align: center;
+     margin-top: 120px;
+}
+
+.tourism_img {
+     width: 840px;
+     height: 498px;
+     margin: auto;
+     margin-top: 40px;
+}
+
+.tour_texts {
+     width: 76%;
+     display: flex;
+     justify-content: space-between;
+     margin-top: 100px;
+}
+
+.tour_text {
+     width: 260px;
+     height: 175px;
+
+}
+
+.tour_text h3 {
+     color: #1a4d6c;
+     font-weight: 600;
+     font-family: 'Cuprum';
+     padding-top: 8px;
+     padding-bottom: 6px;
+     margin-right: 20px;
+     font-size: 30px;
+
+}
+
+.under_2 {
+     background-color: #1a4d6c;
+     width: 100%;
+     height: 3px;
+     margin-top: 10px;
+     margin-bottom: 16px;
+
+}
+
+.tour_text p {
+     color: #000000;
+     font-size: 18px;
+     font-weight: 400;
+     font-family: 'Roboto';
+     padding-top: 4px;
+    padding-bottom: 6px;
+    margin-right: 20px;
 }

@@ -6,20 +6,31 @@ import Navbar from './components/navbar/Navbar';
 import Cards from './components/cards/Cards'
 import Footer from './components/footer/Footer';
 import Uzbekistan from './components/Uzbekistan/Uzbekistan';
+import Card from './components/card/Card';
+import Maxsulotlar from './components/maxsulotlar/Maxsulotlar';
+import About from './components/About/About';
+import News from './components/News/News';
+import Blij from './components/blij/Blij';
+import Noreca from './components/noreca/Noreca'
 
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Home />
-      <Cards />
-      <Busines />
-      <Footer />
 
-      {/* <Routes>
+      {/* <div className="main"> */}
+      {/* </div> */}
+
+      <Routes>
+        <Route path='/' element={<Navbar />} />
+        <Route path='/' element={<Home />} />
         <Route path='/uzb' element={<Uzbekistan />} />
-      </Routes> */}
+        <Route path='/about' element={<About />} />
+        <Route path='/news' element={<News />} />
+        <Route path='/blij' element={<Blij />} />
+        <Route path='/noreca' element={<Noreca />} />
+
+      </Routes>
     </div>
   );
 }

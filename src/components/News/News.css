@@ -1,0 +1,15 @@
+.News{
+     width: 100%;
+     height: auto;
+}
+.all{
+     margin-top: 90px;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.carts{
+     box-shadow: 0 0 10px gray;
+}
+.l{
+     margin-bottom: 100px;
+}

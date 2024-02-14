@@ -1,0 +1,37 @@
+.Card{
+     width: 100%;
+     height: 50vh;
+
+}
+.fu_card ul{
+     list-style: none;
+}
+.fu_cards{
+     display: flex;
+     justify-content: space-around;
+     gap: 15px;
+}
+.fu_card{
+     width: 33.3%;
+     height: 50vh;
+     background-color: rgba(128, 128, 128, 0.518);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+.fu_card h2{
+     font-size: 35px;
+     text-align: center;
+     font-family: sans-serif;
+     font-weight: 400;
+}
+.fu_card ul{
+     margin-top: 20px;
+}
+.fu_card ul li{
+     font-size: 23px;
+     font-family: sans-serif;
+     font-weight: 300;
+
+}

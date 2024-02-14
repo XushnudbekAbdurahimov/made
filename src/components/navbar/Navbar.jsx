@@ -1,29 +1,26 @@
-import React from 'react'
-import './Navbar.css'
-import logo_img from '../images/logo_uzb.png'
+import React, { useState } from 'react';
+import './Navbar.css';
+import logo_img from '../images/logo_uzb.png';
+import lupa from '../images/lupa.svg';
+import { Link } from 'react-router-dom';
 import { FiSearch } from "react-icons/fi";
-import lupa from '../images/lupa.svg'
-import { Link } from 'react-router-dom'
-
 
 const Navbar = () => {
+     const [showHov, setShowHov] = useState(false);
+
      return (
           <div className="div">
-
                <div className='Navbar'>
-
                     <div className="top_nav">
                          <div className="logo_img">
                               <img src={logo_img} alt="" />
                          </div>
-                         {/* <FiSearch className='search-icon' /> */}
                          <div className="input_bar">
-                              <img src={lupa} alt="" />
+                              <FiSearch className='img_img_img' />
                               <input type="text" name="" id="" placeholder='Search' />
                          </div>
-                         <h1>+7 (495) 120 75 59</h1>
+                         <h1 className='nav_h1_h1'>+7 (495) 120 75 59</h1>
                     </div>
-
 
                     <div className="bottom_nav">
                          <ul>
@@ -33,27 +30,32 @@ const Navbar = () => {
                                    </Link>
                               </li>
                               <li>
-                                   <a href="#">
+                                   <Link to={'/about'}>
                                         О ПРОЕКТЕ
-                                   </a>
+                                   </Link>
                               </li>
-                              <li>
+                              <li onMouseEnter={() => setShowHov(true)} onMouseLeave={() => setShowHov(false)}>
                                    <a href="#">
                                         МЕРОПРИЯТИЯ
-                                        {/* <select name="" id="">
-                                        <option value="">
-                                             ngng
-                                        </option>
-                                        <option value="">
-                                             dgtjnyj
-                                        </option>
-                                   </select> */}
                                    </a>
+                                   {showHov && <div className="hov">
+                                        <p className='hov_li'>
+                                             <Link to={"/blij"}>
+                                                  Blijashiyie vistavki
+                                             </Link>
+                                        </p>
+                                        <p className='hov_li'>
+                                             <Link to={"/noreca"}>
+                                                  Noreca
+                                             </Link>
+
+                                        </p>
+                                   </div>}
                               </li>
                               <li>
-                                   <a href="#">
+                                   <Link to={'/news'}>
                                         НОВОСТИ
-                                   </a>
+                                   </Link>
                               </li>
                               <li>
                                    <a href="#">
@@ -66,16 +68,10 @@ const Navbar = () => {
                                    ЗАКАЗАТЬ ЗВОНОК
                               </h1>
                          </div>
-
-
                     </div>
-
-
-
                </div>
           </div>
-
      )
 }
 
-export default Navbar
+export default Navbar;
